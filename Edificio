@@ -1,0 +1,36 @@
+package modelo;
+
+public class Edificio 
+{
+    //Atributos
+    int nroCalle, nroApartamento;
+    
+    //Constructor con parámetros
+    public Edificio(int nroCalle, int nroApart)
+    {
+        super();
+        this.nroCalle = nroCalle;
+        this.nroApartamento = nroApart;
+    }
+    
+    //Set y Get
+    public void setNroCalle(int nroCalle)
+    {
+        this.nroCalle = nroCalle;
+    }
+    
+    public void setNroApart(int nroApart)
+    {
+        this.nroApartamento = nroApart;
+    }
+    
+    public int getNroCalle()
+    {
+        return nroCalle;
+    }
+    
+    public int getNroApart()
+    {
+        return nroApartamento;
+    }
+}
