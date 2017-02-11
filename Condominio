@@ -1,0 +1,39 @@
+package modelo;
+import java.util.*;
+
+public class Condominio 
+{
+    //Atributos
+    int codigoUrb, codigoCondominio;
+    ArrayList<GastosFijos> gastosF;
+    ArrayList<GastosExtra> gastosE;
+    
+    //Constructor con parámetros
+    public Condominio(int codigoU, int codigoC)
+    {
+        super();
+        this.codigoUrb = codigoU;
+        this.codigoCondominio = codigoC;
+    }
+    
+    //Set y Get
+    public void setCodigoUrb(int cu)
+    {
+        this.codigoUrb = cu;
+    }
+    
+    public void setCodigoC(int cd)
+    {
+        this.codigoCondominio = cd;
+    }
+    
+    public int getCodigoUrb()
+    {
+        return codigoUrb;
+    }
+    
+    public int getCodigoC()
+    {
+        return codigoCondominio;
+    }
+}
