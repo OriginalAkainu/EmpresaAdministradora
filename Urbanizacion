@@ -1,0 +1,82 @@
+package modelo;
+
+public class Urbanizacion
+{
+    //Atributos
+    int codigoUrb, nroCasa, nroCalle, cantidadCalles, nroCasasOcupadas;
+    String nombre;
+    
+    //Constructor con parámetros
+    public Urbanizacion(int codigoU, String nombre, int nroCasa, int nroCalle, 
+                        int cantidadCalles, int nroCasasO)
+    {
+        super();
+        this.codigoUrb = codigoU;
+        this.nombre = nombre;
+        this.nroCasa = nroCasa;
+        this.nroCalle = nroCalle;
+        this.cantidadCalles = cantidadCalles;
+        this.nroCasasOcupadas = nroCasasO;
+    }
+    
+    //Set y Get
+    public void setCodigoU(int cu)
+    {
+        this.codigoUrb = cu;
+    }
+    
+    public void setNombre(String n)
+    {
+        this.nombre = n;
+    }
+    
+    public void setNroCasa(int nroc)
+    {
+        this.nroCasa = nroc;
+    }
+    
+    public void setNroCalle(int nrocll)
+    {
+        this.nroCalle = nrocll;
+    }
+    
+    public void setCantCalles(int cclls)
+    {
+        this.cantidadCalles = cclls;
+    }
+    
+    public void setNroCasasO(int nroco)
+    {
+        this.nroCasasOcupadas = nroco;
+    }
+    
+    public int getCodigoU()
+    {
+        return codigoUrb;
+    }
+    
+    public String getNombre()
+    {
+        return nombre;
+    }
+    
+    public int getNroCasa()
+    {
+        return nroCasa;
+    }
+    
+    public int getNroCalle()
+    {
+        return nroCalle;
+    }
+    
+    public int getCantCalles()
+    {
+        return cantidadCalles;
+    }
+    
+    public int getNroCasasO()
+    {
+        return nroCasasOcupadas;
+    }
+}
