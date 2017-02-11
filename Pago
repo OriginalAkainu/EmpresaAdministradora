@@ -1,0 +1,25 @@
+package modelo;
+
+public class Pago 
+{ 
+    //Atributos
+    int tipo;
+    
+    //Constructor con parámetros
+    public Pago(int tipo)
+    {
+        super();
+        this.tipo = tipo;
+    }
+    
+    //Set y Get
+    public void setTipo(int tipo)
+    {
+        this.tipo = tipo;
+    }
+    
+    public int getTipo()
+    {
+        return tipo;
+    }
+}
