@@ -1,0 +1,38 @@
+package modelo;
+
+public class GastosFijos 
+{
+    //Atributos
+    int codigo;
+    String nombre;
+    
+    //Constructor con parámetros
+    public GastosFijos(int codigo, String nombre)
+    {
+        super();
+        this.codigo = codigo;
+        this.nombre = nombre;
+    }
+    
+    //Set y Get
+    public void setCodigo(int c)
+    {
+        this.codigo = c;
+    }
+    
+    public void setNombre(String n)
+    {
+        this.nombre = n;
+    }
+    
+    public int getCodigo()
+    {
+        return codigo;
+    }
+    
+    public String getNombre()
+    {
+        return nombre;
+    }
+    
+}
