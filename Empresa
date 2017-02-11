@@ -1,0 +1,8 @@
+package modelo;
+import java.util.*;
+
+public class Empresa 
+{
+    //Atributos
+    ArrayList<Condominio> condominio;
+}
