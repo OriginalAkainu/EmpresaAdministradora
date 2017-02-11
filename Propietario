@@ -1,0 +1,38 @@
+package modelo;
+import java.util.*;
+public class Propietario extends Persona
+{
+    //Atributos
+    int codigoPropietario, cantidadCasas;
+    ArrayList<Casa> casas;
+    ArrayList<Apartamento> apartamentos;
+    
+    //Constructor con Parámetros
+    public Propietario(String cedula, String nombre, String apellido, int codigoP, int cantidadC)
+    {
+        super(cedula, nombre, apellido);
+        this.codigoPropietario = codigoP;
+        this.cantidadCasas = cantidadC;
+    }
+    
+    //Set y Get
+    public void setCodigoP(int codigoP)
+    {
+        this.codigoPropietario = codigoP;
+    }
+    
+    public void setcantC(int cantC)
+    {
+        this.cantidadCasas = cantC;
+    }
+    
+    public int getCodigoP()
+    {
+        return codigoPropietario;
+    }
+    
+    public int getCantC()
+    {
+        return cantidadCasas;
+    }
+}
