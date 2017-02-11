@@ -1,0 +1,36 @@
+package modelo;
+
+public class Apartamento
+{
+    //Atributos
+    int nroEdificio, codigoPropietario;
+    
+    //Constructor con parámetros
+    public Apartamento(int nroEdificio, int codigoP)
+    {
+        super();
+        this.nroEdificio = nroEdificio;
+        this.codigoPropietario = codigoP;
+    }
+    
+    //Set y Get
+    public void setNroEdificio(int nroEdificio)
+    {
+        this.nroEdificio = nroEdificio;
+    }
+    
+    public void setCodigoP(int codigoP)
+    {
+        this.codigoPropietario = codigoP;
+    }
+    
+    public int getNroEdificio()
+    {
+        return nroEdificio;
+    }
+    
+    public int getCodigoP()
+    {
+        return codigoPropietario;
+    }
+}
