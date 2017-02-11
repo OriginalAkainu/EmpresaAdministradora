@@ -1,0 +1,69 @@
+package modelo;
+
+public class Factura
+{
+    //Atributos
+    int codigo, fechaPago, tipo, codigoPropietario, codigoCondominio;
+    
+    //Constructor con parámetros
+    public Factura(int codigo, int fechaP, int tipo, int codigoP, int codigoC)
+    {
+        super();
+        this.codigo = codigo;
+        this.fechaPago = fechaP;
+        this.tipo = tipo;
+        this.codigoPropietario = codigoP;
+        this.codigoCondominio = codigoC;
+    }
+    
+    //Set y Get
+    public void setCodigo(int c)
+    {
+        this.codigo = c;
+    }
+    
+    public void setFechaP(int fp)
+    {
+        this.fechaPago = fp;
+    }
+    
+    public void setTipo(int t)
+    {
+        this.tipo = t;
+    }
+    
+    public void setCodigoP(int cp)
+    {
+        this.codigoPropietario = cp;
+    }
+    
+    public void setCodigoC(int cc)
+    {
+        this.codigoCondominio = cc;
+    }
+    
+    public int getCodigo()
+    {
+        return codigo;
+    }
+    
+    public int getFechaP()
+    {
+        return fechaPago;
+    }
+    
+    public int getTipo()
+    {
+        return tipo;
+    }
+    
+    public int getCodigoP()
+    {
+        return codigoPropietario;
+    }
+    
+    public int getCodigoC()
+    {
+        return codigoCondominio;
+    }
+}
