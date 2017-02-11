@@ -1,0 +1,36 @@
+package modelo;
+
+public class Casa 
+{
+    //Atributos
+    int nroCalle, codigoPropietario;
+    
+    //Constructor con parámetros
+    public Casa(int nroCalle, int codigoP)
+    {
+        super();
+        this.nroCalle = nroCalle;
+        this.codigoPropietario = codigoP;
+    }
+    
+    //Set y Get
+    public void setNroCalle(int nroC)
+    {
+        this.nroCalle = nroC;
+    }
+    
+    public void setCodigoP(int codigoP)
+    {
+        this.codigoPropietario = codigoP;
+    }
+    
+    public int getCodigoP()
+    {
+        return codigoPropietario;
+    }
+    
+    public int getNroCalle()
+    {
+        return nroCalle;
+    }
+}
